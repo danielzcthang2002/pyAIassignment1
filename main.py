@@ -1,18 +1,5 @@
 import pandas as pd
 import numpy as np
-from sklearn import preprocessing
-from sklearn.preprocessing import LabelEncoder
-from sklearn.model_selection import train_test_split
-
-from sklearn.linear_model import Perceptron
-from sklearn.linear_model import LogisticRegression
-from sklearn.svm import SVC
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import RandomForestClassifier
-
-from sklearn.metrics import confusion_matrix,accuracy_score,classification_report
-import seaborn as sns
-import matplotlib.pyplot as plt
 import streamlit as st
 import pickle
 
